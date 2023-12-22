@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.left img{
+    width: 32px;
+    height: 23px;
+    margin: auto;
+}
+.container{
+   padding: 0vw 10vw;
+    margin: 13px 0px;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+.section1{
+    background: #fff;
+}
+header{
+    position:sticky; 
+     top: 0;
+    /* position: fixed;
+    top: 0; */
+    /* z-index: 1000; */
+    background: #fff;
+    height: 66px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;    
+   
+}
+nav{
+    font-size: 12px;
+    padding-top: 14px;
+    
+    
+} 
+.search{
+    width: 34vw;
+    padding: 7p 17px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+.homeimg{
+    width: 80vw;
+    margin: 12px 0;
+}
+.homeimg1{
+    width: 98vw;
+    margin: 12px 2px;
+    
+}
+@media(max-width:950px){
+    header{
+       height: 166px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: row;
+        /* align-items: last baseline; */
+        /* justify-items: center; */
+        display: flex;
+        margin: 12px;
+    }
+    .right div{
+        display: flex;
+        align-content: flex-end;
+    }
+
+}
